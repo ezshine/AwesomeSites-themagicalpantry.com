@@ -2955,7 +2955,10 @@
               , lt = A(69109);
             const xt = (0,
             lt.Yk)({
-                endpoint: "https://kerrygold-kitchentable.prismic.io/api/v2"
+                // endpoint: "/api/v2"
+                // 修改by 大帅
+                endpoint: window.location.href+"api/v2"
+                // 修改结束
             });
             var ut, Et, ht, dt;
             (function(t) {
